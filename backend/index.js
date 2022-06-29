@@ -45,6 +45,6 @@ app.post("/razorpay", async (req, res) => {
     }
   });
   
-  app.listen(port,(req,res) => {
+  app.listen(port,(req,res)=>{
     console.log("serever is listening at " + port);
   })
